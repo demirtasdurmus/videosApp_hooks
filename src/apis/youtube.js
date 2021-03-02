@@ -5,6 +5,6 @@ export default axios.create ({
     params: {
         part: "snippet",
         maxResults: 5,
-        key: "AIzaSyBl0EkGz6H0rmY58C0llYRV9KuutOdvI80"
+        key: process.env.REACT_APP_API_KEY
     }
 })
